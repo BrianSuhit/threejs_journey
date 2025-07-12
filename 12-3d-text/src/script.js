@@ -55,7 +55,7 @@ fontLoader.load(
         {
             const donut = new THREE.Mesh(donutGeometry, material)
 
-            donut.position.x = (Math.random() * 100) 
+            donut.position.x = (Math.random() - 0.5) * 10
             donut.position.y = (Math.random() - 0.5) * 10
             donut.position.z = (Math.random() - 0.5) * 10
 
